@@ -1,15 +1,13 @@
 {
   "client_id": "https://hasninemamud.github.io/my-bsky-cli/client-metadata.json",
-  "client_name": "My Bluesky CLI Profiler",
-  "client_uri": "https://github.com/Hasninemamud/my-bsky-cli",
-  "application_type": "web",
+  "client_name": "Bluesky CLI Profiler",
+  "application_type": "native",
   "grant_types": ["authorization_code", "refresh_token"],
   "response_types": ["code"],
   "token_endpoint_auth_method": "none",
-  "scope": "atproto transition:generic",
-  "redirect_uris": ["http://localhost:3000/callback"],
+  "scope": "atproto",
+  "redirect_uris": ["http://localhost:8080/callback"],
   "dpop_bound_access_tokens": true
-
 }
 
 

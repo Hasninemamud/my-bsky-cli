@@ -1,6 +1,6 @@
 {
-  "client_id": "https://hasninemamud.github.io/my-bsky-cli/client-metadata.json",
-  "client_name": "Bluesky CLI Profiler",
+  "client_id": "https://yourusername.github.io/my-bsky-cli/client-metadata.json",
+  "client_name": "Bluesky OAuth CLI",
   "application_type": "native",
   "grant_types": ["authorization_code", "refresh_token"],
   "response_types": ["code"],

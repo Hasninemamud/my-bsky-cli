@@ -7,7 +7,8 @@
   "response_types": ["code"],
   "token_endpoint_auth_method": "none",
   "scope": "atproto transition:generic",
-  "redirect_uris": ["http://localhost:8080/callback"],
+  "redirect_uris": ["http://localhost:3000/callback"],
   "dpop_bound_access_tokens": true
 
 }
+

@@ -10,9 +10,10 @@
   "dpop_bound_access_tokens": true,
   "scope": "atproto",
   "redirect_uris": [
-    http://127.0.0.1:8000/social/twitter/authorized/
+    f'https://{request.get_host()}/social/twitter/authorized/'
   ]
 }
+
 
 
 

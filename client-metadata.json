@@ -10,6 +10,6 @@
   "dpop_bound_access_tokens": true,
   "scope": "atproto",
   "redirect_uris": [
-    "https://develop.sharparchive.com/authorize/bluesky"
+    "https://develop.sharparchive.com/social/bluesky/authorized/"
   ]
 }

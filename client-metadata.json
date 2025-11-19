@@ -10,9 +10,12 @@
   "dpop_bound_access_tokens": true,
   "scope": "atproto", "transition:generic",
   "redirect_uris": [
-    "https://develop.sharparchive.com/social/bluesky/authorized/"
+    "https://develop.sharparchive.com/social/bluesky/authorized/",
+    http://127.0.0.1:8000/social/bluesky/authorized/
+    
   ]
 }
+
 
 
 

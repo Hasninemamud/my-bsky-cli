@@ -11,8 +11,6 @@
   "scope": "atproto",
   "redirect_uris": [
     "https://develop.sharparchive.com/social/bluesky/authorized/",
-    "https://localhost:8000/social/bluesky/authorized/"
+    "http://127.0.0.1:8000/social/bluesky/authorized/"
   ]
 }
-
-

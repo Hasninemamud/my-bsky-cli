@@ -6,12 +6,11 @@
   "grant_types": ["authorization_code", "refresh_token"],
   "response_types": ["code"],
   "token_endpoint_auth_method": "none",
-  "scope": ["atproto",
-  "rpc:chat.bsky.convo.listConvos?aud=did:web:api.bsky.chat",
-    "rpc:chat.bsky.convo.getMessages?aud=did:web:api.bsky.chat"],
+  "scope": "atproto",
   "redirect_uris": ["http://127.0.0.1:8000/social/bluesky/authorized/"],
   "dpop_bound_access_tokens": true
 }
+
 
 
 

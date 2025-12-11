@@ -6,7 +6,8 @@
   "grant_types": ["authorization_code", "refresh_token"],
   "response_types": ["code"],
   "token_endpoint_auth_method": "none",
-  "scope": "atproto transition:chat.bsky",
+  "scope": "atproto",
   "redirect_uris": ["http://127.0.0.1:8000/social/bluesky/authorized/"],
   "dpop_bound_access_tokens": true
 }
+

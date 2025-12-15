@@ -1,14 +1,12 @@
 {
   "client_id": "https://hasninemamud.github.io/my-bsky-cli/client-metadata.json",
-  "client_name": "Bluesky OAuth CLI",
   "client_uri": "https://hasninemamud.github.io/my-bsky-cli/",
-  "application_type": "web",
+  "client_name": "Bluesky OAuth CLI",
+  "application_type": "native",
   "grant_types": ["authorization_code", "refresh_token"],
   "response_types": ["code"],
-  "redirect_uris": [
-    "http://127.0.0.1:8000/social/bluesky/authorized/"
-  ],
   "token_endpoint_auth_method": "none",
   "scope": "atproto",
+  "redirect_uris": ["http://127.0.0.1:8000/social/bluesky/authorized/"],
   "dpop_bound_access_tokens": true
 }

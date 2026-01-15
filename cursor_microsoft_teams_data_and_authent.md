@@ -1,15 +1,4 @@
 # Microsoft Teams data and authentication documentation
-_Exported on 1/15/2026 at 11:10:32 GMT+6 from Cursor (2.3.35)_
-
----
-
-**User**
-
-@text_app/models/microsoft_teams_chat.py @text_app/models/microsoft_teams.py @text_app/services/MicrosoftTeams/teams_chat_service.py @text_app/services/MicrosoftTeams/teams_oauth_service.py @text_app/services/MicrosoftTeams/teams_sync_service.py @text_app/views/microsoft_teams.py Analyze the full code base of this file And write me a documentation How it fetch user Microsoft Teams Chats, & teams, channel, channel post also how it authenticate a user
-
----
-
-**Cursor**
 
 # Microsoft Teams Integration Documentation
 

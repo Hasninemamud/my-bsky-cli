@@ -1,5 +1,3 @@
-# Microsoft Teams data and authentication documentation
-
 # Microsoft Teams Integration Documentation
 
 ## Overview

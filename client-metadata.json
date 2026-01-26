@@ -11,10 +11,11 @@
   "scope": "atproto transition:generic transition:chat.bsky rpc:chat.bsky.convo.listConvos?aud=did:web:api.bsky.chat rpc:chat.bsky.convo.getMessages?aud=did:web:api.bsky.chat rpc:chat.bsky.convo.sendMessage?aud=did:web:api.bsky.chat",
   "redirect_uris": [
     "http://127.0.0.1:8000/social/bluesky/authorized/",
-    "http://localhost:3000/authorize/bluesky"
+    "http://127.0.0.1:3000/authorize/bluesky"
   ],
   "dpop_bound_access_tokens": true
 }
+
 
 
 

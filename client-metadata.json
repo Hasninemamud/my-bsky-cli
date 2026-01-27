@@ -13,10 +13,11 @@
     "scope": "atproto transition:generic transition:chat.bsky rpc:chat.bsky.convo.listConvos?aud=did:web:api.bsky.chat rpc:chat.bsky.convo.getMessages?aud=did:web:api.bsky.chat rpc:chat.bsky.convo.sendMessage?aud=did:web:api.bsky.chat",
     "redirect_uris": [
         "https://dev.sharparchive.com/authorize/bluesky",
-        "https://dev.sharparchive.com/api/platform/bluesky/authorized/"
+        "http://127.0.0.1:8000/api/platform/bluesky/authorized/"
     ],
     "dpop_bound_access_tokens": true
 }
+
 
 
 

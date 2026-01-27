@@ -4,7 +4,7 @@
   "client_id": "https://hasninemamud.github.io/my-bsky-cli/client-metadata.json",
   "client_uri": "https://hasninemamud.github.io/my-bsky-cli/",
   "client_name": "Bluesky OAuth CLI",
-  "application_type": "native",
+  "application_type": "web",
   "grant_types": ["authorization_code", "refresh_token"],
   "response_types": ["code"],
   "token_endpoint_auth_method": "none",
@@ -16,6 +16,7 @@
   ],
   "dpop_bound_access_tokens": true
 }
+
 
 
 

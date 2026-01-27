@@ -1,5 +1,5 @@
 {
-    "client_id": "https://hasninemamud.github.io/my-bsky-cli/client-metadata.json?v=3",
+    "client_id": "https://hasninemamud.github.io/my-bsky-cli/client-metadata.json",
     "client_uri": "https://hasninemamud.github.io/my-bsky-cli/",
     "client_name": "Bluesky OAuth CLI",
     "application_type": "web",
@@ -13,9 +13,8 @@
     "token_endpoint_auth_method": "none",
     "scope": "atproto transition:generic transition:chat.bsky rpc:chat.bsky.convo.listConvos?aud=did:web:api.bsky.chat rpc:chat.bsky.convo.getMessages?aud=did:web:api.bsky.chat rpc:chat.bsky.convo.sendMessage?aud=did:web:api.bsky.chat",
     "redirect_uris": [
-        "https://expeditious-dino-worshippingly.ngrok-free.dev/api/platform/bluesky/authorized/",
-        "http://127.0.0.1:8000/api/platform/bluesky/authorized/",
-        "https://localhost:3000/authorize/bluesky"
+        "https://localhost:3000/authorize/bluesky",
+        "https://127.0.0.1:8000/api/platform/bluesky/authorized/"
     ],
     "dpop_bound_access_tokens": true
 }
